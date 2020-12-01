@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firebaseauth">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="mobile tatoo platform"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PageManage"></activity>
+        <activity android:name=".MypageTatooist" />
+        <activity android:name=".OkOrNo" />
+        <activity android:name=".ReservationManage" />
+        <activity android:name=".ReservationState" />
+        <activity android:name=".InformationChange" />
+        <activity android:name=".MyPageCustomer" />
+        <activity android:name=".DesignPage" />
+        <activity android:name=".ReserveForm" />
+        <activity android:name=".ReservationPage" />
+        <activity android:name=".SuccessPageCustomer" />
+        <activity android:name=".signup_for_customer" />
+        <activity android:name=".signup_for_tatooist" />
+        <activity android:name=".signup_choose" />
+        <activity android:name=".SuccessPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
